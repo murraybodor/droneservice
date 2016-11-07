@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dronedel.DroneDeliveryServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-11-07T22:44:19" hostname="bodor13" time="0.024">
+  <properties/>
+  <testcase name="testNoDeliveries" classname="dronedel.DroneDeliveryServiceTest" time="0.019"/>
+  <testcase name="testDeliveryException" classname="dronedel.DroneDeliveryServiceTest" time="0.002"/>
+  <testcase name="testNoDrones" classname="dronedel.DroneDeliveryServiceTest" time="0.001"/>
+  <testcase name="testNormalDeliveries" classname="dronedel.DroneDeliveryServiceTest" time="0.002"/>
+  <system-out><![CDATA[ 
+Drone Name: D
+ 
+Trip #1
+ 
+Mars, Pluto
+ 
+Trip #2
+ 
+Mars, Pluto, Jupiter, Jupiter, Jupiter, Venus
+ 
+Trip #3
+ 
+Neptune, Jupiter, Mars, Neptune
+ 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="drone.controller.DroneDeliveryServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-11-07T22:48:03" hostname="bodor13" time="0.017">
+  <properties/>
+  <testcase name="testNoDeliveries" classname="drone.controller.DroneDeliveryServiceTest" time="0.0"/>
+  <testcase name="testDeliveryException" classname="drone.controller.DroneDeliveryServiceTest" time="0.0"/>
+  <testcase name="testNoDrones" classname="drone.controller.DroneDeliveryServiceTest" time="0.016"/>
+  <testcase name="testNormalDeliveries" classname="drone.controller.DroneDeliveryServiceTest" time="0.0"/>
+  <system-out><![CDATA[ 
+Drone Name: D
+ 
+Trip #1
+ 
+Mars, Pluto
+ 
+Trip #2
+ 
+Mars, Pluto, Jupiter, Jupiter, Jupiter, Venus
+ 
+Trip #3
+ 
+Neptune, Jupiter, Mars, Neptune
+ 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
