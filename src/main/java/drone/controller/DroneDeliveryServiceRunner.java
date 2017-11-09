@@ -57,10 +57,15 @@ public class DroneDeliveryServiceRunner {
                 System.out.println("location=" + deliveryTokens[i] + " weight=" + deliveryTokens[i+1]);
                 deliveries.add(new Delivery(deliveryTokens[i], Integer.parseInt(deliveryTokens[i+1])));
             }
+        
         }
         
         stdin.close();	    
 	    
+        for (Delivery delivery : deliveries) {
+            System.out.println("Delivery Loc=" + delivery.getLocation() + " Weight=" + delivery.getWeight());
+        }
+        
 	    /*
 	     *  Invoke the service
 	     */
